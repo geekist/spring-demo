@@ -6,13 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="annotation" />
+        <module name="restcontroller" />
+        <module name="spring-cloud-provider" />
         <module name="spring-task" />
         <module name="swagger" />
+        <module name="spring-cloud-consumer" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="annotation" options="-parameters" />
+      <module name="restcontroller" options="-parameters" />
+      <module name="spring-cloud-consumer" options="-parameters" />
+      <module name="spring-cloud-provider" options="-parameters" />
       <module name="spring-task" options="-parameters" />
       <module name="swagger" options="-parameters" />
     </option>

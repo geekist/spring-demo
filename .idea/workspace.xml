@@ -5,13 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97a61391-7e5e-4bda-b117-764c29fe7d79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/swagger/src/main/java/com/example/swagger/controller/SwaggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/A1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/A1/FruitBeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/A1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/scan/MainConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/scan/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/scan/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/scan/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/Service/ConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/Service/impl/ConsumerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/feign/IFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/src/main/java/com/ytech/springcloudprovider/Service/ProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/src/main/java/com/ytech/springcloudprovider/Service/impl/ProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/src/main/java/com/ytech/springcloudprovider/controller/ProviderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ytech/springdemo/SpringDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ytech/springdemo/SpringDemoApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,6 +58,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="22OqgYIEVFHry8mZIAYeWcmkK8a" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,12 +75,72 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SwaggerApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\github\spring-demo\spring-cloud-consumer\src\main\java\com\ytech\springcloudconsumer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringCloudConsumerApplication">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ytech.annotation.A1.App" />
+      <module name="annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ytech.annotation.A1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ytech.annotation.AppTest" />
+      <module name="annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ytech.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="annotation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytech.annotation.AnnotationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestcontrollerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="restcontroller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.restcontroller.RestcontrollerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytech.springcloudconsumer.SpringCloudConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytech.springcloudprovider.SpringCloudProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytech.springdemo.SpringDemoApplication" />
@@ -81,6 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppTest" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,6 +180,12 @@
       <workItem from="1639719094569" duration="4991000" />
       <workItem from="1645090798217" duration="1237000" />
       <workItem from="1645092054502" duration="115000" />
+      <workItem from="1645800334551" duration="1616000" />
+      <workItem from="1646144600119" duration="3999000" />
+      <workItem from="1646227934255" duration="1100000" />
+      <workItem from="1646747062776" duration="2120000" />
+      <workItem from="1646749775916" duration="2667000" />
+      <workItem from="1646830283991" duration="6161000" />
     </task>
     <servers />
   </component>
@@ -109,5 +202,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/A1/App.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/A1/App.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

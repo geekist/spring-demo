@@ -8,6 +8,6 @@ public class ConsumerServiceImpl implements ConsumerService {
 
     @Override
     public String echo(String name) {
-        return "I am from provider " + name ;
+        return "I am from consumer " + name ;
     }
 }

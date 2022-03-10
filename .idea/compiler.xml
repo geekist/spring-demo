@@ -10,6 +10,7 @@
         <module name="restcontroller" />
         <module name="spring-cloud-provider" />
         <module name="spring-task" />
+        <module name="spring-cloud-gateway" />
         <module name="swagger" />
         <module name="spring-cloud-consumer" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="annotation" options="-parameters" />
       <module name="restcontroller" options="-parameters" />
       <module name="spring-cloud-consumer" options="-parameters" />
+      <module name="spring-cloud-gateway" options="-parameters" />
       <module name="spring-cloud-provider" options="-parameters" />
       <module name="spring-task" options="-parameters" />
       <module name="swagger" options="-parameters" />

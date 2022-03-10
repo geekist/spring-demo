@@ -17,13 +17,13 @@ public class ConsumerController {
     @Autowired
     IFeignClient feignClient;
 
-    @RequestMapping("/api/echo-consumer")
+    @GetMapping("/echo")
     public String echo(){
         return providerService.echo("just a test for consumer");
     }
 
-    @RequestMapping("/api/echo-feign")
-    public String echo_feign(){
+    @GetMapping("/echo-feign")
+    public String echoFeign(){
         return feignClient.echoFromProvider();
     }
 }

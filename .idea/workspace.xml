@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97a61391-7e5e-4bda-b117-764c29fe7d79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/A1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/A1/FruitBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/A1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/scan/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/scan/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/scan/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotation/src/main/java/com/ytech/annotation/scan/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/Service/ConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/Service/impl/ConsumerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/feign/IFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/src/main/java/com/ytech/springcloudprovider/Service/ProviderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/src/main/java/com/ytech/springcloudprovider/Service/impl/ProviderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/src/main/java/com/ytech/springcloudprovider/controller/ProviderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ytech/springdemo/SpringDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ytech/springdemo/SpringDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/Service/impl/ConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/Service/impl/ConsumerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/feign/IFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/ytech/springcloudconsumer/feign/IFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-provider/src/main/java/com/ytech/springcloudprovider/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-provider/src/main/java/com/ytech/springcloudprovider/controller/ProviderController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,12 +68,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\work\github\spring-demo\spring-cloud-consumer\src\main\java\com\ytech\springcloudconsumer" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringCloudConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.SpringCloudGatewayApplication">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ytech.annotation.A1.App" />
       <module name="annotation" />
@@ -130,6 +120,13 @@
     <configuration name="SpringCloudConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytech.springcloudconsumer.SpringCloudConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytech.springcloudgateway.SpringCloudGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,7 +182,8 @@
       <workItem from="1646227934255" duration="1100000" />
       <workItem from="1646747062776" duration="2120000" />
       <workItem from="1646749775916" duration="2667000" />
-      <workItem from="1646830283991" duration="6161000" />
+      <workItem from="1646830283991" duration="6168000" />
+      <workItem from="1646918283850" duration="9679000" />
     </task>
     <servers />
   </component>

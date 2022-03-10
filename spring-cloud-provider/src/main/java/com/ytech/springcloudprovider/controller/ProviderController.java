@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+
 public class ProviderController {
 
     @Autowired
     ProviderService providerService;
 
-
-    @GetMapping("/api/echo")
+    @GetMapping("/echo-feign")
     public String echo(){
-        return providerService.echo("just a test");
+        return providerService.echo("just a test from provider");
     }
 }

@@ -2,7 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <parent>
         <groupId>com.ytech</groupId>
         <artifactId>spring-demo</artifactId>
@@ -11,13 +10,10 @@
     </parent>
 
     <groupId>com.ytech</groupId>
-    <artifactId>spring-cloud-consumer</artifactId>
+    <artifactId>spring-cloud-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-cloud-consumer</name>
-    <description>spring-cloud-consumer</description>
-
-
-
+    <name>spring-cloud-gateway</name>
+    <description>spring-cloud-gateway</description>
 
     <build>
         <plugins>
